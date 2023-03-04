@@ -1,0 +1,25 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm -r run build "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^8.34.0"
+  },
+  "eslintConfig": {
+    "parserOptions": { 
+      "ecmaVersion": 6 ,
+      "sourceType":"module"
+    },
+    "rules": {
+      "no-eval":"error",
+      "no-var":"error"
+    }
+  }
+}

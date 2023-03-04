@@ -1,0 +1,21 @@
+{
+  "name": "@tian/vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/vue-router.mjs",
+  "scripts": {
+    "build": "rimraf dist && rollup -c rollup.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "rimraf": "^4.1.2",
+    "rollup": "^3.17.2",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "typescript": "^4.9.5",
+    "vue": "^3.2.47"
+  }
+}
